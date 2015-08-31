@@ -11,6 +11,7 @@ body {
 
 .banner {
     position: relative;
+    margin-bottom: 0px;
     height: 200px;
     width: 100%;
     background-color: #5DACBD;
@@ -46,7 +47,7 @@ body {
 
 .icons {
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
