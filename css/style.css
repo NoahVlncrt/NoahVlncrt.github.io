@@ -21,7 +21,6 @@ body {
     color: white;
     text-align: center;
     padding-top: 35px;
-    margin-bottom: 0px;
     font-size: 4em;
     letter-spacing: 2px;
 }
@@ -30,6 +29,19 @@ body {
     color: white;
     text-align: center;
     bottom: 20px;
+}
+
+@media (max-width: 503px){
+    .banner h1 {
+        font-size: 2.3em;
+    }
+    .icons svg {
+        height: 20px;
+        width: 100%;
+    }
+    .banner {
+        height: 180px;
+    }
 }
 
 .icons {
